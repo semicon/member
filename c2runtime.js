@@ -19964,14 +19964,14 @@ cr.plugins_.TextBox = function(runtime)
 	pluginProto.exps = new Exps();
 }());
 cr.getObjectRefTable = function () { return [
-	cr.plugins_.Arr,
-	cr.plugins_.Button,
 	cr.plugins_.Rex_FirebaseAPIV3,
 	cr.plugins_.Rex_Firebase,
-	cr.plugins_.Rex_Firebase_ItemTable,
 	cr.plugins_.Sprite,
-	cr.plugins_.Text,
 	cr.plugins_.TextBox,
+	cr.plugins_.Text,
+	cr.plugins_.Rex_Firebase_ItemTable,
+	cr.plugins_.Arr,
+	cr.plugins_.Button,
 	cr.system_object.prototype.cnds.OnLayoutStart,
 	cr.plugins_.Text.prototype.acts.SetText,
 	cr.plugins_.Rex_Firebase.prototype.acts.GoOnline,
